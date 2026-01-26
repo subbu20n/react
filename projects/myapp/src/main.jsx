@@ -1,23 +1,21 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import UsersList from './components/UsersList.jsx'
-import BirthdayList from './BirthWishes.jsx'
+
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CustomNavbar from './components/customNavbar.jsx'
-import CustomCarousel from './components/customCarousel.jsx'
-import { CustomSpinner } from './components/customSpinner.jsx'
-import CustomCard from './components/customCard.jsx'
+
+// Correct imports with proper capitalization
+import UsersList from './components/UsersList.jsx';          // lowercase 'u' matches folder
+import BirthdayList from './components/BirthWishes.jsx';     // capital W matches file
+import CustomNavbar from './components/customNavbar.jsx';    // PascalCase for component
+import CustomCarousel from './components/customCarousel.jsx'; // corrected spelling
+import { CustomSpinner } from './components/customSpinner.jsx';
+import CustomCard from './components/customCard.jsx';
+import Application from './src/Application.jsx'; 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <CustomNavbar/>
-    <CustomCarousel/>
-    <CustomSpinner/> 
-    <CustomCard/>
-
-    <App />
-  
-  </StrictMode>,
-) 
+    <Application />
+  </StrictMode>
+);
  
