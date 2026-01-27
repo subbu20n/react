@@ -1,3 +1,5 @@
+
+
 import Carousel from 'react-bootstrap/Carousel';
 
 
@@ -5,21 +7,21 @@ function CustomCarousel() {
   return (
     <Carousel>
       <Carousel.Item>
-        <img className="w-80vw" style={{height:300}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Blinkit-yellow-rounded.svg/960px-Blinkit-yellow-rounded.svg.png" text="First slide" />
+        <img style={{width:"100vw",height:"500px"}} src="https://t3.ftcdn.net/jpg/02/41/43/18/360_F_241431868_8DFQpCcmpEPVG0UvopdztOAd4a6Rqsoo.jpg" text="First slide" />
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="w-80vw" style={{height:300}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Blinkit-yellow-rounded.svg/960px-Blinkit-yellow-rounded.svg.png" text="Second slide" />
+        <img style={{width:"100vw",height:"500px"}} src="https://t3.ftcdn.net/jpg/02/41/43/18/360_F_241431868_8DFQpCcmpEPVG0UvopdztOAd4a6Rqsoo.jpg" text="Second slide" />
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='w-80vw' style={{height:300}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Blinkit-yellow-rounded.svg/960px-Blinkit-yellow-rounded.svg.png" text="Third slide" />
+        <img style={{width:"100vw",height:"500px"}} src="https://t3.ftcdn.net/jpg/02/41/43/18/360_F_241431868_8DFQpCcmpEPVG0UvopdztOAd4a6Rqsoo.jpg" text="Third slide" />
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
