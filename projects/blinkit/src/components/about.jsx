@@ -1,18 +1,21 @@
-import CustomCarousel from "./customCarousel";
-import CustomNavbar from "./customNavbar";
-import { FetchProducts } from "./fetchproducts";
-import ControlledCom from "./controlledComponents.jsx";
+import { useContext } from "react"
+import ControlledCom from "./controlledComponents"
+import CustomCarousel from "./customCarousel"
+import CustomNavbar from "./customNavbar"
+import { Counter } from "./blinkitusers"
+
+
 
 function About(){
-  return(
+  
+   return(
     <>
-      <CustomNavbar />
-      <CustomCarousel />
-      <FetchProducts /> 
-      <ControlledCom />
-      <h1>this is about page</h1> 
+    <CustomNavbar/>
+    <CustomCarousel/>
+    
+    <Counter/>
+
     </>
-  )
-} 
- 
-export default About   
+   ) 
+}
+export default About
