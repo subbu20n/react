@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom";
 import { CustomSpinner } from "./Customspinner";
-import useFetch from "./customhooks.jsx";
+import useFetch from "../customhooks/useFetch.js";
 
 import { useSelector, useDispatch } from 'react-redux'
 import { increment } from "../blinkitproducts/recipes";
 
-
+ 
 function FetchProducts(){
-  const dispatch = useDispatch()
+  const dispatch = useDispatch() 
   const k=useSelector((state)=>state)
   console.log(k)
   
